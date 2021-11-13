@@ -140,12 +140,12 @@ server
 }
 
 ```
-- Добавляем location/ {**}
+- Добавляем location/ {**} и можно убрать root, так как мы настроили reverse proxy server
 
 ```
 server
 {
-        root /var/www/frolov.store;
+        
         server_name frolov.store;
 
 
